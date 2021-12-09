@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'HolaMeLlamoChristin';
+const nuevaString = 'Hola me llamo Christian';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 984151;
@@ -27,8 +27,8 @@ const nuevoModulo = 21 % 5 === 1;
 
 function devolverString(str) {
   // "Return" la string provista: str
-  // Tu código:
-  return str
+  "Hola lokura"
+  return str  
 }
 
 function suma(x, y) {
@@ -39,7 +39,7 @@ function suma(x, y) {
   return sumando
 }
 
-function resta(x, y) {
+function resta(x, y) {  
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   restando= x-y
@@ -96,12 +96,12 @@ function mayorQueCincuenta(num) {
     else return false;
 }
 
-function obtenerResto(x, y) {
-  // Obten el resto de la división de "x" entre "y"
-  // Tu código:
-resto= (x%y);
-return resto;
-}
+  function obtenerResto(x, y) {
+    // Obten el resto de la división de "x" entre "y"
+    // Tu código:
+  resto= (x%y);
+  return resto;
+  }
 
 
 function esPar(num) {
@@ -196,7 +196,8 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola '+nombre+'!';
+  saludo='Hola '+nombre+'!';
+  return saludo;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
