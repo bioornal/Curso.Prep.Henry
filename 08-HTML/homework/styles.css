@@ -1,12 +1,13 @@
 #thirdDiv {
-            width: 500px;
-            height: 600px;
+            width: 600px;
+            height: 500px;
             background: rgb(221, 230, 221);
             padding: 50px;
             border: black 9px solid;
         }
 #spanId {
            margin: 50px;
+           font-size: 18px;
         }
 body {
    background-image: "https://miviaje.com/wp-content/uploads/2020/06/cataratas-ban-gioc-atardecer-768x512.jpg";
