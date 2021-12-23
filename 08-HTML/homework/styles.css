@@ -5,7 +5,10 @@
             padding: 50px;
             border: black 9px solid;
         }
-        #spanId {
+#spanId {
            margin: 50px;
         }
+body {
+   background-image: "https://miviaje.com/wp-content/uploads/2020/06/cataratas-ban-gioc-atardecer-768x512.jpg";
+}
        
