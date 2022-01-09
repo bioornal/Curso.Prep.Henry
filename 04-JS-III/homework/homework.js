@@ -35,12 +35,13 @@ function incrementarPorUno(array) {
 
 
 function agregarItemAlFinalDelArray(array, elemento) {
-  // Añade el "elemento" al final del array
-  // y devuelve el array
-  // Tu código:
-  array[array.length]=elemento;
-  return array;
-}
+    // Añade el "elemento" al final del array
+    // y devuelve el array
+    // Tu código:
+    // array[array.length]=elemento;
+    array.push(elemento);
+    return array;
+  }
 
 
 function agregarItemAlComienzoDelArray(array, elemento) {
@@ -89,18 +90,18 @@ function arrayContiene(array, elemento) {
   }
 
 
-function promedioResultadosTest(resultadosTest) {
-  // "resultadosTest" debe ser una matriz de enteros (int/integers)
-  // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
-  // Tu código:
-  
-  var prom=0;
-    for(var i=0; i<resultadosTest.length; i++){
-        prom=(resultadosTest[i]+prom);
-  }
-  var cant=prom/resultadosTest.length;
-  return cant;
-}
+  function promedioResultadosTest(resultadosTest) {
+    // "resultadosTest" debe ser una matriz de enteros (int/integers)
+    // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
+    // Tu código:
+    
+      var prom=0;
+        for(var i=0; i<resultadosTest.length; i++){
+            prom=(resultadosTest[i]+prom);
+      }
+      var cant=prom/resultadosTest.length;
+      return cant;
+    }
 
 function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
